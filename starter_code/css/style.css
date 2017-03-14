@@ -29,7 +29,10 @@ Developer @GA in NYC
 
 header {
    background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-    background-size: cover;
+   background-size: 100% 100%;
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   padding: 30px;
 }
 
 h1 {
@@ -42,6 +45,9 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 450;
+  padding: 20px;
+  margin:auto;
+  text-align: center;
 }
 
 h3 {
@@ -49,6 +55,10 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 450;
   font-size: 20px;
+}
+
+button {
+  text-align: center;
 }
 
 .clear {
@@ -65,9 +75,26 @@ h3 {
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
-.benefitsintro {
-  color: #606161;
+.headercontainer {
+  margin: auto;
+  text-align: center;
 }
+
+.signup {
+  background: #f9e42e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 800;
+  font-size: 12px;
+  border: 5px;
+}
+
+.button2 {
+  background: #033048;
+  color: white;
+  border: none;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -76,7 +103,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open-Sans', sans-serif;
 }
 
 ul {
@@ -97,25 +124,51 @@ ul {
 
 }
 
+.benefitsblock {
+  padding: 50px;
+}
+
 #benefits {
   background color: #f0efef;
   color: #606161;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   font-size: 13px;
 }
 
+.quote {
+  font-family: 'Open-Sans', sans-serif;
+  text-align: center;
+  background: url(../images/testimonial_bg.jpg);
+  height: 150px;
+  color: white;
+  padding: 20px 40px;
+}
 
+#quote {
+  font-weight: 100;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#quotename {
+  font-weight: 450;
+  font-size: 18px;
+}
+/* */
 footer {
+  background: #121212;
+  color: white;
 
 }
 
 .button {
     background-color: #f9e42e;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 14px;
     border: 5px;
     color: #033048;
+    text-align: center;
 }
 
 
