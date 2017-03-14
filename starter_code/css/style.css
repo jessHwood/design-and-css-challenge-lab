@@ -27,6 +27,30 @@ Developer @GA in NYC
      height: 0;
 }
 
+header {
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+    background-size: cover;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 450;
+}
+
+h3 {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 450;
+  font-size: 20px;
+}
+
 .clear {
   clear: both;
 }
@@ -41,6 +65,9 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+.benefitsintro {
+  color: #606161;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -50,8 +77,11 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+}
+
+ul {
+    list-style-type: disc;
+    color: #606161;
 }
 
 
@@ -67,18 +97,25 @@ body {
 
 }
 
-header {
-
+#benefits {
+  background color: #f0efef;
+  color: #606161;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 13px;
 }
+
 
 footer {
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
-
-
+.button {
+    background-color: #f9e42e;
+    font-weight: 900;
+    font-size: 14px;
+    border: 5px;
+    color: #033048;
+}
 
 
