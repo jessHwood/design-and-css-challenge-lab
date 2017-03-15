@@ -129,7 +129,7 @@ ul {
 
 /* Center the container */
 #container {
-  width: 100%;
+  width: 65%;
   margin: auto;
   height: 500px;
 
@@ -158,6 +158,7 @@ ul {
 }
 
 p.quotetext {
+  font-family: 'Open-Sans', sans-serif;
   height: 100px;
   width: 40%;
   font-weight: 300;
