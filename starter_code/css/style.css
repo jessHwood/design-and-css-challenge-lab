@@ -33,6 +33,7 @@ header {
    font-family: 'Open Sans', sans-serif;
    color: white;
    padding: 30px;
+   height: 200px;
 }
 
 h1 {
@@ -53,13 +54,10 @@ h2 {
 h3 {
   color: #033048;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 450;
+  font-weight: 600;
   font-size: 20px;
 }
 
-button {
-  text-align: center;
-}
 
 .clear {
   clear: both;
@@ -84,15 +82,27 @@ button {
   background: #f9e42e;
   text-align: center;
   padding: 15px;
-  font-weight: 800;
-  font-size: 12px;
-  border: 5px;
+}
+
+.button {
+    background-color: #f9e42e;
+    font-weight: 800;
+    font-size: 14px;
+    border: 5px;
+    color: #033048;
+    text-align: center;
+    border-radius: 2px;
 }
 
 .button2 {
   background: #033048;
   color: white;
   border: none;
+  border-radius: 2px;
+  font-weight: 800;
+  font-size: 12px;
+  border: 5px;
+  padding: 10px 20px;
 }
 
 /******************************************
@@ -109,6 +119,7 @@ body {
 ul {
     list-style-type: disc;
     color: #606161;
+    padding: 0px 30px;
 }
 
 
@@ -132,7 +143,7 @@ ul {
   background color: #f0efef;
   color: #606161;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 13px;
 }
 
@@ -140,35 +151,57 @@ ul {
   font-family: 'Open-Sans', sans-serif;
   text-align: center;
   background: url(../images/testimonial_bg.jpg);
-  height: 150px;
+  height: 200px;
+  width: 100%;
   color: white;
-  padding: 20px 40px;
+  padding: 20px;
 }
 
-#quote {
-  font-weight: 100;
+p.quotetext {
+  height: 100px;
+  width: 40%;
+  font-weight: 300;
   font-size: 18px;
   font-style: italic;
+  margin: auto;
 }
 
 #quotename {
-  font-weight: 450;
+  font-weight: 600;
   font-size: 18px;
 }
 /* */
 footer {
   background: #121212;
   color: white;
-
 }
 
-.button {
-    background-color: #f9e42e;
-    font-weight: 800;
-    font-size: 14px;
-    border: 5px;
-    color: #033048;
-    text-align: center;
+.footertext {
+  color: #f9e42e;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
 }
+
+.footerimages {
+  text-align: center;
+}
+
+img {
+  padding: 5px 10px;
+  height: 30px;
+}
+
+
+.copyright {
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+}
+
+
 
 
